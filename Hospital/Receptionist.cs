@@ -22,5 +22,10 @@ namespace Hospital
             this.department = department;
             this.onThePhone = onThePhone;
         }
+
+        public override string EmployeeInformation()
+        {
+            return base.EmployeeInformation() + "\tOn The Phone: " + onThePhone;
+        }
     }
 }

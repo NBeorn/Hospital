@@ -25,5 +25,10 @@ namespace Hospital
         {
 
         }
+
+        public virtual string EmployeeInformation()
+        {
+            return "Name: " + employeeName + "\tNumber: " + employeeNumber + "\n";
+        }
     }
 }

@@ -26,5 +26,10 @@ namespace Hospital
             this.employeeNumber = employeeNumber;
             this.specialtyArea = specialtyArea;
         }
+
+        public override string EmployeeInformation()
+        {
+            return base.EmployeeInformation() + "\tSpecialty Area: " + specialtyArea;
+        }
     }
 }

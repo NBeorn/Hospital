@@ -19,5 +19,10 @@ namespace Hospital
         {
 
         }
+
+        public override string EmployeeInformation()
+        {
+            return base.EmployeeInformation() + "\tDepartment: " + department;
+        }
     }
 }

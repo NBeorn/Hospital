@@ -22,5 +22,10 @@ namespace Hospital
             this.specialtyArea = specialtyArea;
             this.operationStatus = operationStatus;
         }
+
+        public override string EmployeeInformation()
+        {
+            return base.EmployeeInformation() + "\tCurrently Operating: " + operationStatus;
+        }
     }
 }

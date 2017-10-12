@@ -22,5 +22,10 @@ namespace Hospital
             this.department = department;
             this.numberOfPatients = numberOfPatients;
         }
+
+        public override string EmployeeInformation()
+        {
+            return base.EmployeeInformation() + "\tNumber of Patients: " + numberOfPatients;
+        }
     }
 }
