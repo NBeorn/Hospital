@@ -21,14 +21,14 @@ namespace Hospital
             Nurse kyle = new Nurse("Kyle James", 142, "Out-Patient", 2);
 
             Console.WriteLine("High St. Hospital Employees: \n");
-            Console.WriteLine(david.EmployeeInformation());
-            Console.WriteLine(james.EmployeeInformation());
-            Console.WriteLine(catherine.EmployeeInformation());
-            Console.WriteLine(jaime.EmployeeInformation());
-            Console.WriteLine(zachary.EmployeeInformation());
-            Console.WriteLine(emma.EmployeeInformation());
-            Console.WriteLine(clara.EmployeeInformation());
-            Console.WriteLine(kyle.EmployeeInformation());
+            Console.WriteLine(david.EmployeeInformation() + "\n");
+            Console.WriteLine(james.EmployeeInformation() + "\n");
+            Console.WriteLine(catherine.EmployeeInformation() + "\n");
+            Console.WriteLine(jaime.EmployeeInformation() + "\n");
+            Console.WriteLine(zachary.EmployeeInformation() + "\n");
+            Console.WriteLine(emma.EmployeeInformation() + "\n");
+            Console.WriteLine(clara.EmployeeInformation() + "\n");
+            Console.WriteLine(kyle.EmployeeInformation() + "\n");
         }
     }
 }
