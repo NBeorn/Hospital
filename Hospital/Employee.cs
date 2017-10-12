@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace Hospital
 {
-    class Employee
+    abstract class Employee
     {
+        protected string employeeName;
+        protected int employeeNumber;
+
+        public string EmployeeName
+        {
+            get { return this.employeeName; }
+        }
+
+        public int EmployeeNumber
+        {
+            get { return this.employeeNumber; }
+        }
+
+        public Employee()
+        {
+
+        }
     }
 }
