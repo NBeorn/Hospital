@@ -6,25 +6,21 @@ using System.Threading.Tasks;
 
 namespace Hospital
 {
-    class Doctor : Employee
+    class Surgeon : Doctor
     {
-        protected string specialtyArea;
+        private bool operationStatus;
 
-        public string SpecialtyArea
+        public bool OperationStatus
         {
-            get { return this.specialtyArea; }
+            get { return this.operationStatus; }
         }
 
-        public Doctor()
-        {
-
-        }
-
-        public Doctor(string employeeName, int employeeNumber, string specialtyArea)
+        public Surgeon(string employeeName, int employeeNumber, string specialtyArea, bool operationStatus)
         {
             this.employeeName = employeeName;
             this.employeeNumber = employeeNumber;
             this.specialtyArea = specialtyArea;
+            this.operationStatus = operationStatus;
         }
     }
 }
